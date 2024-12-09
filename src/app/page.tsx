@@ -8,7 +8,7 @@ export default async function Home(props: {
 }) {
   return (
     <main className={styles.main}>
-      <Code value="Hello, World!" lang="plaintext" />
+      <Code value="export const fn = () => {}" lang="javascript" />
     </main>
   );
 }
